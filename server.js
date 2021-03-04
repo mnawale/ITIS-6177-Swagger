@@ -16,12 +16,12 @@ var connection = mysql.createConnection({
 
 const options = {
     swaggerDefinition: {
-        info: {
+        students: {
             title: 'Student Information API',
             version: '2.1.1',
             description: 'Student information '
         },
-        host:'itis-6177-swagger-nnv8w.ondigitalocean.app',
+        host:'https://itis-6177-swagger-nnv8w.ondigitalocean.app',
         basePath: '/',
     },
     apis: ['./server.js'],
@@ -52,7 +52,7 @@ const info    = {
 
 /**
  *  @swagger
- *  /info:
+ *  /students:
  *    get:
  *      description: Return all student info
  *      produces:
