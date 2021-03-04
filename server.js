@@ -16,7 +16,7 @@ var connection = mysql.createConnection({
 
 const options = {
     swaggerDefinition: {
-        info: {
+        students: {
             title: 'Student Information API',
             version: '2.1.1',
             description: 'Student information '
@@ -52,7 +52,7 @@ const info    = {
 
 /**
  *  @swagger
- *  /info:
+ *  /students:
  *    get:
  *      description: Return all student info
  *      produces:
