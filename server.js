@@ -13,7 +13,7 @@ const options = {
             version: '2.1.1',
             description: 'Student information '
         },
-        host:'itis-6177-swagger-nnv8w.ondigitalocean.app/',
+        host:'itis-6177-swagger-nnv8w.ondigitalocean.app',
         basePath: '/',
     },
     apis: ['./server.js'],
