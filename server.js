@@ -32,7 +32,7 @@ const options = {
             version: '2.1.1',
             description: 'Student information '
         },
-        host:'itis-6177-swagger-nnv8w.ondigitalocean.app',
+        host:'159.89.92.81:3000',
         basePath: '/',
     },
     apis: ['./server.js'],
