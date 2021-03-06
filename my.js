@@ -37,7 +37,13 @@ const info    = {
         },
     ]
 };
-
+app.get('/students', async (req, res) {
+   console.log(req);
+   connection.query('select * from student', function (error, results, fields) {
+	  if (error) throw error;
+	  res.end(JSON.stringify(results));
+	});
+});
 /**
  *  @swagger
  *  /info:
